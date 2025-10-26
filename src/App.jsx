@@ -4,10 +4,11 @@ import Benefits from "./components/benefits.jsx";
 import Modules from "./components/modules.jsx";
 import Contact from "./components/contact.jsx";
 import Footer from "./components/footer.jsx";
+import FloatingWhatsApp from "./components/floating-whatsapp.jsx";
 
 export default function App() {
   return (
-    <div className="min-h-screen bg-estela-beige text-estela-dark scroll-smooth">
+    <div className="min-h-screen bg-estela-beige text-estela-dark">
       <Header />
       <main>
         <Hero />
@@ -16,6 +17,7 @@ export default function App() {
         <Contact />
       </main>
       <Footer />
+      <FloatingWhatsApp />
     </div>
   );
 }
