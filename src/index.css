@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-estela-beige text-estela-dark font-sans antialiased;
+}
+
