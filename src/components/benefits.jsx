@@ -1,6 +1,6 @@
 const items = [
   { icon: "🌱", title: "Sustentable", desc: "Usamos energías renovables para reducir huella ambiental." },
-  { icon: "🛡️", title: "Bioseguridad", desc: "Altas normas en cada proceso para proteger la salud del plantel." },
+  { icon: "🦠", title: "Bioseguridad", desc: "Altas normas en cada proceso para proteger la salud del plantel." },
   { icon: "⚙️", title: "Tecnología", desc: "Gestión moderna y control de variables para mayor eficiencia." },
   { icon: "🥚", title: "Alimentación balanceada", desc: "Nutrición de calidad, rendimiento y bienestar animal." },
   { icon: "🔗", title: "Trazabilidad total", desc: "Registro lote a lote y mejora continua." },

@@ -9,6 +9,9 @@ export default {
           yellow: "#EBCB68",
           beige: "#F3EDE2",
           dark: "#2D2A26",
+          navy: "#0B1D3A",
+          midnight: "#10254C",
+          deep: "#12315C",
         },
       },
       fontFamily: {

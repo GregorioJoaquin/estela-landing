@@ -8,7 +8,7 @@ import FloatingWhatsApp from "./components/floating-whatsapp.jsx";
 
 export default function App() {
   return (
-    <div className="min-h-screen bg-estela-beige text-estela-dark">
+    <div className="min-h-screen bg-gradient-to-b from-estela-navy via-estela-midnight to-estela-deep text-white">
       <Header />
       <main>
         <Hero />
