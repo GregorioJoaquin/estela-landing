@@ -8,20 +8,18 @@ const items = [
 
 export default function Benefits() {
   return (
-    <section id="beneficios" className="bg-white/80 py-20">
-      <div className="mx-auto max-w-6xl px-6">
-        <div className="mx-auto max-w-2xl text-center">
-          <h2 className="font-serif text-3xl font-semibold text-estela-dark sm:text-4xl">Beneficios de Estela Marina</h2>
-          <p className="mt-3 text-estela-dark/70">
-            Sustentabilidad, bioseguridad y tecnología al servicio de la calidad.
-          </p>
+    <section id="beneficios" className="section section-light">
+      <div className="container">
+        <div className="section__intro">
+          <h2 className="section__title">Beneficios de Estela Marina</h2>
+          <p className="section__description">Sustentabilidad, bioseguridad y tecnología al servicio de la calidad.</p>
         </div>
-        <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="benefits__grid">
           {items.map((b) => (
-            <div key={b.title} className="rounded-3xl bg-estela-beige/70 p-6 shadow-soft transition hover:-translate-y-1 hover:shadow-lg">
-              <div className="text-4xl">{b.icon}</div>
-              <h3 className="mt-4 font-serif text-xl text-estela-dark">{b.title}</h3>
-              <p className="mt-2 text-sm text-estela-dark/80">{b.desc}</p>
+            <div key={b.title} className="benefit-card">
+              <div className="benefit-card__icon">{b.icon}</div>
+              <h3>{b.title}</h3>
+              <p>{b.desc}</p>
             </div>
           ))}
         </div>

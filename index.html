@@ -11,35 +11,8 @@
       href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap"
       rel="stylesheet"
     />
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-      tailwind.config = {
-        theme: {
-          extend: {
-            colors: {
-              estela: {
-                green: "#5f7c4f",
-                yellow: "#EBCB68",
-                beige: "#F3EDE2",
-                dark: "#2D2A26",
-              },
-            },
-            fontFamily: {
-              serif: ['"Playfair Display"', 'serif'],
-              sans: ['"Poppins"', 'sans-serif'],
-            },
-            boxShadow: {
-              soft: "0 25px 50px -20px rgba(45, 42, 38, 0.35)",
-            },
-            backgroundImage: {
-              'hero-field': "url('https://images.unsplash.com/photo-1500382017468-9049fed747ef?q=80&w=1600&auto=format&fit=crop')",
-            },
-          },
-        },
-      };
-    </script>
   </head>
-  <body class="bg-estela-beige text-estela-dark font-sans antialiased">
+  <body>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
   </body>
